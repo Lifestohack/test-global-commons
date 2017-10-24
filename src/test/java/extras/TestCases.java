@@ -1,9 +1,10 @@
-package project.test;
+package extras;
 
+import projects.project1.actions.TestProject;
 
 public class TestCases {
 
-	TestProject project;
+	public TestProject project;
 	
 	public TestCases() {
 		project = new TestProject();
