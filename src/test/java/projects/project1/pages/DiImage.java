@@ -3,20 +3,20 @@ package projects.project1.pages;
 import org.commons.models.DIWebElements;
 import org.commons.selenium.DISelectorsManager;
 
-public class DiPage extends DISelectorsManager {
+public class DiImage extends DISelectorsManager {
 
-	public DiPage() {
-		super(DiPage.class);
+	public DiImage() {
+		super(DiImage.class);
 	}
 
-	public DIWebElements image;
+	public DIWebElements dashboard;
 
 	public void loadurl() {
 		load();
 	}
 
 	public void goToImageSearchPage() {
-		click(image);
+		// TODO Auto-generated method stub
 		
 	}
 }

@@ -15,7 +15,7 @@ public class TestProject {
 	}
 
 	public void goToAboutUsPage() {
-		diPage.goToAboutUsPage();
+		diPage.goToImageSearchPage();
 	}
 
 }

@@ -23,3 +23,24 @@ hs_err_pid*
 /target/
 /test-output/
 
+/src/test/resources/Selectors/NewTestPage.xml
+/target/classes/project/test/Page2.class
+/target/classes/project/test/Selenium.class
+/target/classes/project/test/TestCases.class
+/target/classes/project/test/TestProject.class
+/target/classes/Properties/functional.properties
+/target/classes/Properties/functional.properties.test
+/target/classes/Properties/functional.properties.values
+/target/classes/Properties/technical.properties
+/target/classes/Selectors/NewTestPage.xml
+/target/classes/Testsuits/selenium-test.xml
+/test-output/emailable-report.html
+/test-output/index.html
+/test-output/junitreports/TEST-test.commons.global.selenium.Selenium.xml
+/test-output/old/index.html
+/test-output/old/Suite/methods.html
+/test-output/old/Suite/methods-alphabetical.html
+/test-output/old/Suite/toc.html
+/test-output/Suite/Test.html
+/test-output/Suite/Test.xml
+/test-output/testng-results.xml

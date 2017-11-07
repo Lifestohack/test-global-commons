@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+<pageMap>
+	<guielement>
+		<name>textToSearch</name>
+		<select>TEXTBOX</select>
+		<locate>xpath</locate>
+		<value>//*[@id='lst-ib']</value>
+	</guielement>
+	
+	<guielement>
+		<name>image</name>
+		<select>button</select>
+		<locate>xpath</locate>
+		<value>//*[@id='_fZl']</value>
+	</guielement>
+	</pageMap>
+</page>

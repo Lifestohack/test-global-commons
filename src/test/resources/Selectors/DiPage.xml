@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+<pageMap>
+	<guielement>
+		<name>image</name>
+		<select>label</select>
+		<locate>xpath</locate>
+		<value>//*[@id='gbw']/div/div/div[1]/div[2]/a</value>
+	</guielement>
+	</pageMap>
+</page>
