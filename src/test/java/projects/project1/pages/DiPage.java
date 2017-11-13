@@ -1,15 +1,15 @@
 package projects.project1.pages;
 
 import org.commons.models.DIWebElements;
-import org.commons.selenium.DISelectorsManager;
+import org.commons.selenium.DIWebPageActions;
 
-public class DiPage extends DISelectorsManager {
-
-	public DiPage() {
-		super(DiPage.class);
-	}
+public class DiPage extends DIWebPageActions{
 
 	public DIWebElements image;
+	
+	public DiPage() {
+		System.out.println("DiPage is initiated.....");
+	}
 
 	public void loadurl() {
 		load();

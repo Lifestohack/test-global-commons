@@ -1,21 +1,22 @@
 package projects.project1.actions;
 
+import org.commons.selenium.DIPageFactory;
+
+import projects.project1.pages.DiImage;
 import projects.project1.pages.DiPage;
 
-public class TestProject {
+public class TestProject extends DIPageFactory{
 
-	DiPage diPage;
-
-	public TestProject() {
-		diPage = new DiPage();
-	}
 
 	public void loadUrl() {
-		diPage.loadurl();
+		getPage(DiPage.class).loadurl();
 	}
 
-	public void goToAboutUsPage() {
-		diPage.goToImageSearchPage();
+	public void goToImageSearchPage() {
+		getPage(DiPage.class).goToImageSearchPage();
 	}
-
+	
+	public void typeSearchText() {
+		getPage(DiImage.class).searchImageText();
+	}	
 }

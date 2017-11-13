@@ -15,7 +15,8 @@ public class Selenium extends TestCases {
 		
 		
 		project.loadUrl();
-		project.goToAboutUsPage();
+		project.goToImageSearchPage();
+		project.typeSearchText();
 	}
 
 }

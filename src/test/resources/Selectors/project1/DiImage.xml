@@ -9,7 +9,7 @@
 	</guielement>
 	
 	<guielement>
-		<name>image</name>
+		<name>search</name>
 		<select>button</select>
 		<locate>xpath</locate>
 		<value>//*[@id='_fZl']</value>
