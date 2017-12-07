@@ -12,8 +12,7 @@ public class TestCases extends DIWebDriver{
 	
 	public TestCases() {
 		DISetUp.setUpLogDirectory();
-		WebDriver driver = getDriver();
-		project = new TestProject(driver);	
+		project = new TestProject(getDriver());	
 	}
 	
 	public void getAllSelectors() {
